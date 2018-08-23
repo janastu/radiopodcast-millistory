@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--script type="text/javascript" src="https://unpkg.com/rxjs@6.1.0/bundles/rxjs.umd.min.js"></script-->
+	<meta charset="UTF-8" />
+	<title>Namma School Radio</title>
+<link href="assets/css/lib/bootstrap.css" rel="stylesheet" crossorigin="anonymous">
+<link href="assets/css/lib/light-gallery/lightgallery.min.css" rel="stylesheet" crossorigin="anonymous">
+<link href="assets/css/app.css" rel="stylesheet" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+ 
+<!--
+	<script type="text/javascript" src="underscore.js"></script>
+	<script type="text/javascript" src="examplen-cbs.js"></script> -->
+	<script type="text/javascript" src="assets/js/lib/laconic.js"></script>
+	
+
+	<!-- data in google sheets,
+	https://docs.google.com/spreadsheets/d/1CqezhpQsicBRXPuEcJzjliER4LoxrmkI8wdcQPLT9Ts/edit#gid=2080781762 -->
+
+</head>
+<body>
+
+
+	<article class="container-fluid">
+
+		<div class="row">
+			<div class="col-md-12" id="page-wrap">
+				<h1 class="center">Namma School Radio</h1>
+				<!--header class="page-header">
+					
+					<h1 name="1" class="center">Remembering a Clampdown</h1>
+					<h3 name="22" class="center">Friday, June 1<sup>st</sup> 2018</h3>
+
+					<div class="nav-wrap">
+						<div class="main-nav center-block">
+							<ul class="nav nav-pills">
+							  <li role="presentation" class=""><a href="under-construction.html">ABOUT</a></li>
+							  <li role="presentation"><a target="_blank" href="http://testpoliticalarchives.test.openrun.net/collections/show/13">ARCHIVES</a></li>
+							  <li role="presentation"><a href="under-construction.html">CREDITS</a></li>
+							</ul>
+						</div>
+					</div>
+				</header-->
+				<!-- PAGE WIDGETS START -->
+				<section class="widgets">
+					<div id="player">
+						<!-- Top Info -->
+						<div id="title">
+						  <span id="track"></span>
+						  <div id="timer">0:00</div>
+						  <div id="duration">0:00</div>
+						</div>
+
+						<!-- Controls -->
+						<div class="controlsOuter">
+						  <div class="controlsInner">
+						    <div id="loading"></div>
+						    <div class="btn" id="playBtn"></div>
+						    <div class="btn" id="pauseBtn"></div>
+						    <div class="btn" id="prevBtn"></div>
+						    <div class="btn" id="nextBtn"></div>
+						  </div>
+						  <div class="btn" id="playlistBtn"></div>
+						  <div class="btn" id="volumeBtn"></div>
+						</div>
+
+						<!-- Progress -->
+						<div id="waveform"></div>
+						<div id="bar"></div>
+						<div id="progress"></div>
+
+						<!-- Playlist -->
+						<div id="playlist">
+						  <div id="list"></div>
+						</div>
+
+						<!-- Volume -->
+						<div id="volume" class="fadeout">
+						  <div id="barFull" class="bar"></div>
+						  <div id="barEmpty" class="bar"></div>
+						  <div id="sliderBtn"></div>
+						</div>
+					</div>
+
+				</section>
+				<!-- PAGE WIDGETS END -->
+
+
+				<div id="page">
+					<!-- Renderer will render in this container -->
+
+				</div>
+			</div>
+		</div>
+
+	</article>
+
+	
+
+
+</body>
+
+<script type="text/javascript" src="assets/js/data.js" ></script>
+<script type="text/javascript" src="assets/js/utilities.js" ></script>
+<script type="text/javascript" src="assets/js/renderer.js" ></script>
+
+ <script src="assets/js/lib/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/lib/lightgallery-all.min.js" ></script>
+<script type="text/javascript" src="assets/js/lib/jquery.flex-images.min.js" ></script>
+ <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
+    <script src="assets/js/lib/jquery.mousewheel.min.js"></script>
+
+ <script src="assets/js/lib/howler.min.js"></script>
+ <script src="assets/js/lib/player/siriwave.js"></script>
+ <script src="assets/js/lib/player.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
+
+</html>

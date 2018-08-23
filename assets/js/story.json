@@ -1,0 +1,195 @@
+{
+    "catalog": [
+        {
+            "id": 1,
+            "type": "title",
+            "resource": "Emergency Brand Of Journalism"
+        },
+        {
+            "id": 2,
+            "type": "paragraph",
+            "resource": "On the night of June 25th 1975 when Prime Minister Indira Gandhi declared an internal Emergency an entire nation was taken unawares. Nobody really knew what an internal Emergency meant or what it involved."
+        },
+        {
+            "id": 3,
+            "type": "block:audio",
+            "resource": "[CMitra Day OF]"
+        },
+        {
+            "id": 4,
+            "type": "paragraph",
+            "resource": "For a democracy barely three decades old the terminology was alien. This alienness allowed those who imposed the Emergency to do with it as they willed. It was a time, like any other time in history, that people remember very differently for the ways in which it affected them personally. Many conversations describe the Emergency as a state of efficiency. For reasons that are both amusing and distressing a frequent refrain is, “Trains ran on time”. These are men and women unaffected by the sterilisation campaigns and ‘city beautification’ drives undertaken by the government."
+        },
+        {
+            "id": 5,
+            "type": "paragraph",
+            "resource": "It was also a time that made and broke many journalistic careers. In the press circles the Emergency drew sharp lines. Some of those lines were immediately evident. Many of these, however, were drawn retrospectively. The Emergency is often remembered now for its tyranny and the heroism of those who stood up against it. Those who were, in principle or word against the Emergency, or those who could claim that they indeed were, for lack of any evidence to the contrary, often remember the time with the pride of a survivor."
+        },
+        {
+            "id": 6,
+            "type": "paragraph",
+            "resource": "Some, saw jails, other received threats, yet others were hounded out of their careers and jobs either during the Emergency or later when Indira Gandhi was back in power. Many saw none of these. And yet the narrative of the emergency is such that many have basked in the borrowed glory of the sufferings of those they were associated with. Each suffering is remembered in the context of the grand story that that Emergency has become over the years. And each suffering has a corresponding hero. One amusing anecdote, however recalls how Cushrow Irani of the Statesman paper felt cheated of his martyrdom."
+        },
+        {
+            "id": 7,
+            "type": "block:audio",
+            "resource": "[JSuraya The Woes of Cushrow Irani]"
+        },
+        {
+            "id": 8,
+            "type": "paragraph",
+            "resource": "One hero (or anti depending on where one stood at the time) was Indira Gandhi. To detractors she was a tyrant. To adulators she is still the Iron Lady of India. And Indira’s suffering, if posthumous accounts are to be believed, was her son, Sanjay Gandhi, who, according to many was the real engineer of the Emergency."
+        },
+        {
+            "id": 9,
+            "type": "block:audio",
+            "resource": "[SNaqvi The Terror of Mrs Gandhi]"
+        },
+        {
+            "id": 10,
+            "type": "paragraph",
+            "resource": "On the day of the Emergency all went dark in the newspaper offices. Literally. Bahadur Shah Zafar Marg’s presses received no electricity on the day the Emergency was announced. There were no newspapers on 25th June. On 26th June the famous blank editorials of Indian Express and The Statesman registered their protests with silence. That silence is now a legend. The memory of this protest overshadows almost everything else (with the possible exception of the Obituary to Democracy). These acts of protests, however were also good business for the Express and Statesman. Smaller publications Seminar and Himmat however, buckled under the pressure of the press gag."
+        },
+        {
+            "id": 11,
+            "type": "heading",
+            "resource": "KNayar Reporting Foreign News and the Economics"
+        },
+        {
+            "id": 12,
+            "type": "block:audio",
+            "resource": "[Aroon Purie One]"
+        },
+        {
+            "id": 13,
+            "type": "paragraph",
+            "resource": "The Emergency was the first great moment of Indian journalism since independence. The freedom of speech and expression could not have found a better moment for articulation. It is the threat that the Emergency posed to this freedom that clearly defined the ideologies of the press. In 1975 when the press was gagged journalists were struggling to find stories because most stories were off limits. As were several words. The word emergency, for instance was banned. According to Jug Suraya one could not even say ‘emergency exit’."
+        },
+        {
+            "id": 14,
+            "type": "image:slide",
+            "resource": "[TOI 1975 Dec 11]"
+        },
+        {
+            "id": 15,
+            "type": "block:audio",
+            "resource": "[Jsuraya The Exigency]"
+        },
+        {
+            "id": 16,
+            "type": "paragraph",
+            "resource": "In the absence of reliable local news from the news agencies (all of which were clubbed to form the state controlled Samachar by 1976) many journalists restored to listening to foreign airwaves. Newspapers turned to reporting global news and small local coverage. Those who complied with the Emergency often found themselves writing eulogies to Sanjay Gandhi. Those that hadn’t were writing whatever they could pass through the censors. And since transmissions from official channels was always suspect, circles of trust became essential to the circulation of information."
+        },
+        {
+            "id": 17,
+            "type": "image:slide",
+            "resource": "[BLITZ]"
+        },
+        {
+            "id": 18,
+            "type": "block:audio",
+            "resource": "[JLaiq Rumour Mill]"
+        },
+        {
+            "id": 19,
+            "type": "paragraph",
+            "resource": "When the Emergency was lifted these circles of trust fostered meteoric journalistic careers. Cub reporters who had written against the Emergency rode the anti Emergency sentiment to land cushy posts as senior reporters and editors. Many saw the post Emergency period as the liberation of the press. This was an opportunity for the journalists (whether they were for or against the Emergency previously) to launch into a phase of journalism that is now largely seen as ‘young’ ‘activisty’ and free from the clutches of the power circles in Delhi. None of this, of course, remained true for very long."
+        },
+        {
+            "id": 20,
+            "type": "block:audio",
+            "resource": "[APoorie New Journalists]"
+        },
+        {
+            "id": 21,
+            "type": "block:audio",
+            "resource": "[JLaiq The Young Brigade]"
+        }
+    ],
+    "story-template": [
+        {
+            "ref": 1,
+            "align": "center"
+        },
+        {
+            "ref": 2,
+            "align": "left"
+        },
+        {
+            "ref": 3,
+            "align": "right"
+        },
+        {
+            "ref": 4,
+            "align": "center"
+        },
+        {
+            "ref": 5,
+            "align": "center"
+        },
+        {
+            "ref": 6,
+            "align": "left"
+        },
+        {
+            "ref": 7,
+            "align": "right"
+        },
+        {
+            "ref": 8,
+            "align": "left"
+        },
+        {
+            "ref": 9,
+            "align": "right"
+        },
+        {
+            "ref": 10,
+            "align": "center"
+        },
+        {
+            "ref": 11,
+            "align": "center"
+        },
+        {
+            "ref": 12,
+            "align": "left"
+        },
+        {
+            "ref": 13,
+            "align": "right"
+        },
+        {
+            "ref": 14,
+            "align": "center"
+        },
+        {
+            "ref": 15,
+            "align": "left"
+        },
+        {
+            "ref": 16,
+            "align": "right"
+        },
+        {
+            "ref": 17,
+            "align": "center"
+        },
+        {
+            "ref": 18,
+            "align": "left"
+        },
+        {
+            "ref": 19,
+            "align": "right"
+        },
+        {
+            "ref": 20,
+            "align": "left"
+        },
+        {
+            "ref": 21,
+            "align": "right"
+        }
+    ]
+}

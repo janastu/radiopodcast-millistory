@@ -1,0 +1,242 @@
+
+/* app main styles */
+
+* {
+	box-sizing: border-box;
+}
+body{
+	/*word-spacing: 0.2em;
+	background-color: #fffdf1;*/
+	letter-spacing: 2px;
+	color: #402f21;
+	font-family: 'Roboto', sans-serif;
+	
+}
+h1 {
+	color: #223c44;
+	font-family: 'Roboto', sans-serif;
+	font-size: 45px;
+	font-weight: bold;
+	line-height: 60px;
+	text-align: center;
+	margin-top:30px;
+}
+h2 {
+	font-size: 32px;
+	line-height: 35px;
+	color: #223c44;
+	text-align: center;
+}
+h3[name="22"]{
+	font-size: 14px;
+	text-align: center;
+}
+p {
+	font-size: 18px;
+	line-height: 30px;
+	padding-top:15px;
+	padding-bottom:15px;
+	-ms-word-break: break-all;
+	word-break: normal;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+
+}
+blockquote {
+	line-height: 28px;
+}
+img {
+	width:100%;
+	}
+ul[data-type="slide"]{
+	list-style: none;
+	display:flex;
+	padding-top:15px;
+	padding-bottom: 15px;
+	width: 50%;
+	float: right;
+	clear: right;
+}
+ul[data-type="slide"] li {
+	padding:5px;
+}
+
+.audio-feed{
+	height:120px;
+	line-height: 30px;
+	font-size: 16px;
+	border: 1px solid #223c44;
+	padding: 15px;
+}
+
+span[name="2"], span[name="3"], span[name="4"], span[name="5"], span[name="6"], span[name="7"],
+span[name="8"], span[name="9"], span[name="10"], span[name="11"], span[name="12"], span[name="13"] {
+	background-image: url(./../images/icons/mike.png);
+	background-repeat: no-repeat;
+	width: 75px;
+	height:75px;
+	background-size: contain;
+	vertical-align: sub;
+	padding: 15px;
+	cursor: pointer;
+}
+
+p[name="2"] div {
+	font-weight: bold;
+}
+/* LAYOUT STYLES */
+.page-header {
+	border-bottom:none;
+}
+.nav-wrap {
+	border-top: 1px solid #402f21;
+	border-bottom: 1px solid #402f21;
+	margin-top: 20px;
+}
+.main-nav {
+	max-width:360px;
+}
+.nav-pills > li > a {
+	color: #402f21 !important;
+}
+#page-wrap {
+	/*border: 2px solid beige;*/
+}
+
+#page {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+	grid-gap: 5px;
+	margin-top: 15px;
+}
+
+
+
+.feed {
+	cursor:pointer;
+	padding:5px;
+	border: 1px solid #ccc;
+}
+.feed p {
+	font-weight:bold;
+}
+
+/*====================================================
+Vendor overwrites for lightgallery styles
+========================================================
+*/
+.lg-outer {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.lg-toolbar, .lg-prev, .lg-next {
+  background-color: #fff !important;
+}
+.lg-icon{
+  color: #822d1a !important;
+}
+.lg-icon:hover {
+  color: #F9A01F !important;
+}
+.lg-sub-html{
+  color: #888 !important;
+  background-color: #fff !important;
+}
+
+
+/*====================================================
+Player Styles
+========================================================
+*/
+
+/* TODO: need media query to handle width for diff devices;*/
+.widgets {
+	position: sticky;
+	top: 0;
+}
+
+#player {
+	background: #504c35;
+	padding: 15px;
+	height: 190px;
+	width: 100%;
+	color: #fffdf1;
+
+
+}
+
+#player #timer {
+	position:absolute;
+	width:100%;
+}
+
+#player #duration {
+	right: 15px;
+	position: absolute;
+}
+
+#player #playBtn{
+	background-image: url('./../images/player/play.png');
+	background-repeat: no-repeat;
+	background-size: contain; 
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: -20px;
+	left: 46%;
+}
+
+#player #pauseBtn{
+	background-image: url('./../images/player/pause.png');
+	background-repeat: no-repeat;
+	background-size: contain; 
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: -20px;
+	left: 46%;
+	display: none;
+}
+
+#track{
+	position: absolute;
+	bottom: 20px;
+}
+#waveform {
+	display:none;
+	position:absolute;
+	top:70%;
+}
+
+/* Loading */
+#loading {
+  position: relative;
+  left: 50%;
+  top: 30px;
+  margin: -35px;
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 100%;  
+  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+  display: none;
+}
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+@keyframes sk-scaleout {
+  0% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
