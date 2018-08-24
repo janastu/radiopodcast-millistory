@@ -267,77 +267,7 @@ Player.prototype = {
 };
 
 // Setup our new audio player class and pass it the playlist.
-var player = new Player([
-  {
-    title: 'Nonavinakere Headlines by Shashidhara',
-    file: '1st-news',
-    howl: null
-  },
-  {
-    title: 'Quotes for the day',
-    file: 'farmers-news',
-    howl: null
-  },
-  {
-    title: 'Hongirana',
-    file: 'Hongirana',
-    howl: null
-  },
-  {
-    title: 'Mahile Sabalikarana',
-    file: 'Mahile-sabalikarana',
-    description: '',
-    howl: null
-  },
-  {
-    title: 'Maragalu',
-    file: 'Maragalu',
-    description: '',
-    howl: null
-  },
-  {
-    title: 'Pollution',
-    file: 'Polution',
-    description: '',
-    howl: null
-  },
-  {
-    title: 'Promo',
-    file: 'New-promo-Varsha',
-    description: '',
-    howl: null
-  },
-  {
-    title: 'Promo',
-    file: 'Radio-Proposal',
-    description: '',
-    howl: null
-  },
-  {
-    title: 'Savayava Krishi',
-    file: 'Savayava-Krishi',
-    description: '',
-    howl: null
-  }, 
-  {
-    title: 'School Activity',
-    file: 'School-Activity',
-    description: '',
-    howl: null
-  }, 
-  {
-    title: 'Interview',
-    file: 'Senior-Interwiew',
-    description: '',
-    howl: null
-  }, 
-  {
-    title: 'Barbie by Varsha',
-    file: 'Varsha-Barbi3',
-    description: '',
-    howl: null
-  }, 
-]);
+var player = new Player(window.podList);
 
 // Bind our player controls.
 playBtn.addEventListener('click', function() {
